@@ -26,10 +26,10 @@
             } else {
                 $('.fixed-top').removeClass('shadow').css('top', 0);
             }
-        } 
+        }
     });
-    
-    
+
+
    // Back to top button
    $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
@@ -84,7 +84,7 @@
         smartSpeed: 1500,
         center: false,
         dots: true,
-        loop: true,
+        loop: false,
         margin: 25,
         nav : true,
         navText : [
